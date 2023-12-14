@@ -73,7 +73,7 @@ To get started with BusKaro, follow these steps:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/Ashu-161120/BusKaro.git
+   git clone https://github.com/nishant-harsh/buskaro.git
 
    # Change to project directory
    cd BusKaro

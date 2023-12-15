@@ -221,7 +221,7 @@ export function AddBusForm() {
           name="departure"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Bus Arrival</FormLabel>
+              <FormLabel>Bus Departure</FormLabel>
               <Input type="datetime-local" disabled={isLoading} {...field} />
               <FormMessage />
             </FormItem>

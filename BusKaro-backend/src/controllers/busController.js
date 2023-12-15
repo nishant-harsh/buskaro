@@ -99,7 +99,9 @@ const deleteBus = async (req, res, next) => {
 
 const searchBuses = async (req, res, next) => {
   try {
-    const { source, destination, date } = req.query;
+    let { source, destination, date } = req.query;
+    source=source.toLowerCase();
+    destination=destination.toLowerCase();
     const weekday = new Date(date)
       .toLocaleDateString("en-US", { weekday: "long" })
       .toLowerCase();

@@ -251,7 +251,7 @@ const SignUp = () => {
             </svg>
             BusKaro
           </div>
-          <div className="relative z-20 mt-auto text-zinc-800 backdrop-blur-md rounded-md border p-4 shadow-xl shadow-slate-200">
+          {/* <div className="relative z-20 mt-auto text-zinc-800 backdrop-blur-md rounded-md border p-4 shadow-xl shadow-slate-200">
             <blockquote className="space-y-2 text-center">
               <p className="text-lg">
                 &ldquo;Utilizing the latest advancements in technology, Ashutosh
@@ -262,7 +262,7 @@ const SignUp = () => {
               </p>
               <footer className="text-sm">~ AK</footer>
             </blockquote>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

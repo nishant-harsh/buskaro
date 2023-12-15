@@ -207,7 +207,7 @@ export function AddRouteForm() {
           name="eta"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Estimated Time</FormLabel>
+              <FormLabel>Estimated Time (in hours)</FormLabel>
               <FormControl>
                 <Input
                   placeholder="Enter estimated time of arrival"
